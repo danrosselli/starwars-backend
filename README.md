@@ -3,8 +3,12 @@ Simple backend to search for starwars movie characters written in PHP and Symfon
 
 > composer install
 
-Configure .ENV if necessary for database access
+Configure .ENV for mysql database access
+
+Setup the database (create tables):
+
+> ./bin/console doctrine:schema:update --dump-sql
+
+Start the server:
 
 > symfony server:start
-
-
