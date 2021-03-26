@@ -1,5 +1,5 @@
 # starwars-backend
-Simple backend to search for starwars movie characters written in PHP Symfony
+Simple backend to search for starwars movie characters written in PHP and Symfony
 
 > composer install
 
